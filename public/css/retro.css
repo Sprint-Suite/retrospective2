@@ -391,7 +391,7 @@
 /* ---------------------------------------------------------------------------
  * Dialogs (action, instructions, key-reveal, confirm)
  * ------------------------------------------------------------------------ */
-.ins .action-dialog{width:min(520px, calc(100vw - 32px)); padding:0; border:1px solid var(--line); border-radius:var(--r-md); background:var(--panel); color:var(--ink); box-shadow:var(--shadow-md);}
+.ins .action-dialog{width:min(520px, calc(100vw - 32px)); margin:auto; padding:0; border:1px solid var(--line); border-radius:var(--r-md); background:var(--panel); color:var(--ink); box-shadow:var(--shadow-md);}
 .ins .action-dialog::backdrop{background:oklch(0.235 0.013 250 / 0.42);}
 .ins .action-dialog form,
 .ins .instructions-content,
