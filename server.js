@@ -727,8 +727,9 @@ app.get("/actions", auth.requireAuth, requireEntitled, (req, res) => {
   res.sendFile(path.join(__dirname, "public", "actions.html"));
 });
 
+// The licence lives on the Hub; in-app it opens as a popup (js/licence-modal.js).
 app.get("/license", (req, res) => {
-  res.sendFile(path.join(__dirname, "public", "license.html"));
+  res.redirect(301, "https://sprintsuite.uk/license");
 });
 
 app.get("/health", (req, res) => {
