@@ -147,7 +147,6 @@
 .ins.lobby-page,
 .ins.actions-page,
 .ins.admin-page,
-.ins.legal-page,
 .ins.retro-page{min-height:100vh; display:flex; flex-direction:column; background:var(--bone);}
 
 /* ---------------------------------------------------------------------------
@@ -213,17 +212,6 @@
 .ins .login-footer{width:min(1080px, calc(100vw - 40px)); margin:-36px auto 20px; color:var(--soft); font-size:0.88rem; text-align:center;}
 .ins .login-footer a{color:var(--accent); font-weight:700; text-decoration:underline; text-underline-offset:3px;}
 .ins .login-footer a:hover{filter:brightness(0.85);}
-
-/* ---------------------------------------------------------------------------
- * Legal / licence page
- * ------------------------------------------------------------------------ */
-.ins .legal-shell{width:min(860px, calc(100vw - 40px)); margin:0 auto; padding:52px 0;}
-.ins .legal-panel{padding:34px;}
-.ins .legal-panel h1{margin:0 0 10px; font-size:clamp(2rem, 5vw, 3.2rem); line-height:1;}
-.ins .legal-panel h2{margin:28px 0 8px; font-size:1.05rem;}
-.ins .legal-panel p{margin:0; color:var(--soft);}
-.ins .legal-updated{font-weight:700;}
-.ins .legal-back-link{margin-top:30px;}
 
 /* ---------------------------------------------------------------------------
  * Retrospective board (retro-page) chrome
